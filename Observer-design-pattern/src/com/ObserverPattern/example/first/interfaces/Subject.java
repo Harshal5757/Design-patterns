@@ -6,6 +6,5 @@ public interface Subject {
 	
 	void notifyObserver();
 	
-	Object getUpdate();
-	
+	Object getUpdate(Observer observer);	
 }
